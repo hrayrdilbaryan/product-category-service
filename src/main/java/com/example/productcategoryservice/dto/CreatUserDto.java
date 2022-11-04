@@ -5,12 +5,17 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class CategoryResponseDto {
+public class CreatUserDto {
 
-    private int id;
+
     private String name;
+    private String surname;
+    private String email;
+    private String password;
+
 }
